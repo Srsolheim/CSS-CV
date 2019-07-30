@@ -1,33 +1,74 @@
 body{
   font-family: 'Cabin Condensed', sans-serif;
   text-align: center;
-  background-color: #e2eff1;
+  background-color: #ffffff;
   margin: 0;
 }
 
-.header-box{
-  margin-top: 10%;
-  position: relative;
-}
-
-.cloud-icon{
-  max-width: 10%;
-  max-height: 10%;
-  position: absolute;
-}
-
 h1{
+  display: inline-block;
   font-family: 'Merienda', cursive;
-  font-size: 60px;
+  font-size: 5rem;
   color: #555273;
 }
 
 h2{
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0;
   color: #65799b;
 }
 
 h3{
   font-family: 'Nunito Sans', sans-serif;
   color: #65799;
+}
+
+a{
+  color: #65799b;
+}
+
+/* CLASSES */
+.navbar{ /*navbar havner under header-container men ikke noe annet - pga. position, må fikses*/
+  top: 0;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  background-color: red;
+}
+
+.header-container{
+  margin-top: 50px;
+  background-color: #e2eff1;
+  position: relative;
+}
+
+.cloud-icon-left{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 200px;
+}
+
+.cloud-icon-right{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 150px;
+  bottom: 100px;
+}
+
+.drawing-icon{
+  width: 200px;
+  height: 200px;
+}
+
+.computer-icon{
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container{
+  background-color: #e2eff1;
 }
