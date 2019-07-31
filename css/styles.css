@@ -1,22 +1,25 @@
 body{
+  color: #40514E;
   font-family: 'Cabin Condensed', sans-serif;
   text-align: center;
+  font-size: 1.25rem;
   background-color: #ffffff;
   margin: 0;
 }
 
 h1{
   display: inline-block;
-  font-family: 'Merienda', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 5rem;
   color: #555273;
+  margin-bottom: 0;
 }
 
 h2{
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Merienda', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  margin-top: 0;
+  margin: 10px auto 0 auto;
   color: #65799b;
 }
 
@@ -25,50 +28,120 @@ h3{
   color: #65799;
 }
 
+p{
+  line-height: 2;
+}
+
 a{
+  font-size: 1.25rem;
   color: #65799b;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+hr{
+  border: none;
+  border-top: dotted #e2eff1 10px;
+  width: 5%;
+  margin: 50px auto;
 }
 
 /* CLASSES */
-.navbar{ /*navbar havner under header-container men ikke noe annet - pga. position, må fikses*/
-  top: 0;
-  bottom: 0;
-  height: 50px;
-  position: fixed;
-  background-color: red;
-}
-
 .header-container{
-  margin-top: 50px;
   background-color: #e2eff1;
   position: relative;
+  padding-bottom: 20px;
+}
+
+.middle-container{
+  margin: 50px;
+}
+
+.profile{
+  margin: 50px auto;
+}
+
+.profile-picture{
+  border-radius: 50%; /* Makes the picture round */
+}
+
+.intro{
+  width: 50%;
+  margin: 20px auto;
 }
 
 .cloud-icon-left{
   width: 150px;
   height: 150px;
   position: absolute;
-  left: 200px;
+  left: 350px;
+  top: 70px;
 }
 
 .cloud-icon-right{
   width: 200px;
   height: 200px;
   position: absolute;
-  right: 150px;
-  bottom: 100px;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
 }
 
 .drawing-icon{
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .computer-icon{
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  padding: 20px;
+}
+
+.btn {
+  background: #65799b;
+  background-image: -webkit-linear-gradient(top, #65799b, #045080);
+  background-image: -moz-linear-gradient(top, #65799b, #045080);
+  background-image: -ms-linear-gradient(top, #65799b, #045080);
+  background-image: -o-linear-gradient(top, #65799b, #045080);
+  background-image: -webkit-gradient(to bottom, #65799b, #045080);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b6d5e1;
+  background-image: -webkit-linear-gradient(top, #b6d5e1, #8aafbd);
+  background-image: -moz-linear-gradient(top, #b6d5e1, #8aafbd);
+  background-image: -ms-linear-gradient(top, #b6d5e1, #8aafbd);
+  background-image: -o-linear-gradient(top, #b6d5e1, #8aafbd);
+  background-image: -webkit-gradient(to bottom, #b6d5e1, #8aafbd);
+  text-decoration: none;
 }
 
 .bottom-container{
+  padding-top: 20px;
   background-color: #e2eff1;
+}
+  .footer-link{
+    margin: 0 20px;
 }
